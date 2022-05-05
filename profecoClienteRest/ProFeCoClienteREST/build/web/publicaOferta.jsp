@@ -136,7 +136,7 @@
                         </div>
 
                         <div class=" myContainerAbs col-md-10  hidden-sm">
-                            <form>
+                            <form action="Notifica" method="post">
 
                                 <div class="col-md-8">
                                     <input type="number" class="form-control myInput" placeholder="Ingrese descuento" aria-describedby="basic-addon1" required>
@@ -166,9 +166,6 @@
         </div>
 
         <!--  footer --> 
-
-
-
 
         <footer>
             <div class="footer">

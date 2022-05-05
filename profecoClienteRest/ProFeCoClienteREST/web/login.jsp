@@ -116,8 +116,6 @@
                   <img class="first-slide" src="images/banner2.jpg" alt="First slide">
                   
                </div>
-               
-              
 
             </div>
             <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
