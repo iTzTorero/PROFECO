@@ -84,16 +84,11 @@
                                 <div class="limit-box">
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
-                                            <li class="active"> <a href="indexMercado.html">Inicio</a> </li>
-
-                                            <li> <a href=#aviso>Aviso</a> </li>
-                                            <li> <a href="#Ligas">Ligas</a> </li>
-                                            <li> <a href="#nosotros">Más</a> </li>
-                                            <li> <a href="contact.html">Contacto</a> </li>
-                                            <li class="mean-last"> <a href="registro.html">Registro</a> </li>
-
-
-
+                                            <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
+                                            <li> <a href=#aviso>Administra</a> </li>
+                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
+                                            <li> <a href="#nosotros">Productos</a> </li>
+                                           
                                         </ul>
                                     </nav>
                                 </div>

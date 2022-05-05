@@ -1,10 +1,11 @@
 <%-- 
-    Document   : indexMercado
-    Created on : 4/05/2022, 05:12:34 PM
+    Document   : publicaOferta
+    Created on : 4/05/2022, 05:43:28 PM
     Author     : crist
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,7 +16,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <!-- site metas -->
-        <title>Mercado</title>
+        <title>Publica oferta</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -88,7 +89,7 @@
                                             <li> <a href=#aviso>Administra</a> </li>
                                             <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
                                             <li> <a href="#nosotros">Productos</a> </li>
-                                           
+
                                         </ul>
                                     </nav>
                                 </div>
@@ -102,80 +103,69 @@
                 <!-- end header inner --> 
         </header>
         <!-- end header -->
+      <section class="slider_section">
+         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
-        <section class="slider_section">
-           
-            <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="first-slide" src="images/banner2.jpg" alt="First slide">
-
-                    </div>
-
-
-
-                </div>
-                <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-                    <i class='fa fa-angle-right'></i>
-                </a>
-                <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-                    <i class='fa fa-angle-left'></i>
-                </a>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="first-slide" src="images/banner2.jpg" alt="First slide">
+                  
+               </div>
+               
+              
 
             </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <i class='fa fa-angle-right'></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <i class='fa fa-angle-left'></i>
+            </a>
+            
+         </div>
 
-        </section>
-
-        <div class="whyschose">
-         
+      </section>
+        <!-- our product -->
+        <div class="product">
+            <A name ="nosotros"></A>
             <div class="container">
-
                 <div class="row">
-                     <div class="title col-12">
-                <h2>Mercado</h2>
-            </div>
-                </div>
-            </div>
-        </div>
-        <div class="choose_bg">
-            <div class="container">
-                <div class="white_bg">
-                    <div class="row">
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Administrar productos</h3>
-                                <p>Registra, actualiza y elimina tus productos</p>
-                            </div>
-                        </dir>
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Publicar una oferta</h3>
+                    <div class="col-md-12">
+                        <div class="title">
+                            <h2>Publica oferta</h2>
+                        </div>
 
-                            </div>
-                        </dir>
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Ver comentarios</h3>
-                                <p>Ve los comentarios de los consumidores</p>
-                            </div>
-                        </dir>
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Catálogo de productos</h3>
-                                <p></p>
-                            </div>
-                        </dir>
+                        <div class=" myContainerAbs col-md-10  hidden-sm">
+                            <form>
+
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control myInput" placeholder="Ingrese descuento" aria-describedby="basic-addon1" required>
+
+                                </div>
+                                
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control myInput" placeholder="Ingrese duración" aria-describedby="basic-addon1" required>
+
+                                </div>
+
+
+                                <div class="col-md-8">
+                                    <input type="text" class="form-control myInput" placeholder="Descripción de la oferta" aria-describedby="basic-addon1" required>
+
+                                </div>
+
+                                <div class="col-md-8">
+                                    <button type="submit" class="btnReg btn-default form-control myButton">Publicar</button>
+                                </div>
+                            </form>
+                        </div>
 
                     </div>
                 </div>
             </div>
         </div>
 
+        <!--  footer --> 
 
 
 

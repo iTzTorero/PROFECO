@@ -27,7 +27,7 @@
         <!-- Responsive-->
         <link rel="stylesheet" href="css/responsive.css">
         <!-- fevicon -->
-       <link rel="icon" href="images/logoprofeco.png" type="image/gif" />
+        <link rel="icon" href="icon/1.png" type="image/gif" />
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
         <!-- Tweaks for older IEs-->
@@ -108,7 +108,28 @@
          <!-- end header inner --> 
       </header>
         <!-- end header -->
+      <section class="slider_section">
+         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="first-slide" src="images/banner2.jpg" alt="First slide">
+                  
+               </div>
+               
+              
+
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <i class='fa fa-angle-right'></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <i class='fa fa-angle-left'></i>
+            </a>
+            
+         </div>
+
+      </section>
         <!-- our product -->
         <div class="product">
             <A name ="nosotros"></A>
