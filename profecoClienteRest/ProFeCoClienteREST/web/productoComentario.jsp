@@ -225,8 +225,8 @@
                </div>
                 <div class="img_bg">
                    <br>
-                <p>Siempre quise una de pequeña<br>
-                ¡Súper oferta! </p>
+                <p>Está bien chila<br>
+                ¡La amo! </p>
                </div>
               </div>
             </div>
