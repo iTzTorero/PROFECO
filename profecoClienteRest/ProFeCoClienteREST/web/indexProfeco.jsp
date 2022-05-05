@@ -84,13 +84,11 @@
                                 <div class="limit-box">
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
-                                            <li class="active"> <a href="indexMercado.html">Inicio</a> </li>
+                                            <li class="active"> <a href="indexProfeco.jsp">Inicio</a> </li>
 
-                                            <li> <a href=#aviso>Aviso</a> </li>
-                                            <li> <a href="#Ligas">Ligas</a> </li>
-                                            <li> <a href="#nosotros">Más</a> </li>
-                                            <li> <a href="contact.html">Contacto</a> </li>
-                                            <li class="mean-last"> <a href="registro.html">Registro</a> </li>
+                                            <li> <a href="">Sanción</a> </li>
+                                            <li> <a href="">Reporte</a> </li>
+                                  
 
 
 
@@ -100,7 +98,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                            <li><a class="buy" href="index.html">Salir</a></li>
+                            <li><a class="buy" href="index.jsp">Salir</a></li>
                         </div>
                     </div>
                 </div>

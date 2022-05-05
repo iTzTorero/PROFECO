@@ -85,9 +85,9 @@
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
-                                            <li> <a href=#aviso>Administra</a> </li>
+                                            <li> <a href="administra.jsp">Administra</a> </li>
                                             <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
-                                            <li> <a href="#nosotros">Productos</a> </li>
+                                            
 
                                         </ul>
                                     </nav>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                            <li><a class="buy" href="index.html">Salir</a></li>
+                            <li><a class="buy" href="index.jsp">Salir</a></li>
                         </div>
                     </div>
                 </div>

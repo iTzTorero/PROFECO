@@ -1,11 +1,10 @@
 <%-- 
-    Document   : publicaOferta
-    Created on : 4/05/2022, 05:43:28 PM
+    Document   : administra
+    Created on : 4/05/2022, 07:14:52 PM
     Author     : crist
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -16,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <!-- site metas -->
-        <title>Publica oferta</title>
+        <title>Administra</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -86,10 +85,9 @@
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
-                                            <li> <a href=#aviso>Administra</a> </li>
-                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
-                                           
-
+                                            <li> <a href="agregaProducto.jsp">Agrega</a> </li>
+                                            <li> <a href="actualizaProducto.jsp">actualiza</a> </li>
+                                            <li> <a href="eliminaProducto.jsp">elimina</a> </li>  
                                         </ul>
                                     </nav>
                                 </div>
@@ -103,69 +101,69 @@
                 <!-- end header inner --> 
         </header>
         <!-- end header -->
-      <section class="slider_section">
-         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <img class="first-slide" src="images/banner2.jpg" alt="First slide">
-                  
-               </div>
-               
-              
+        <section class="slider_section">
+
+            <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="images/banner2.jpg" alt="First slide">
+
+                    </div>
+
+
+
+                </div>
+                <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                    <i class='fa fa-angle-right'></i>
+                </a>
+                <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                    <i class='fa fa-angle-left'></i>
+                </a>
 
             </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class='fa fa-angle-right'></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class='fa fa-angle-left'></i>
-            </a>
-            
-         </div>
 
-      </section>
-        <!-- our product -->
-        <div class="product">
-            <A name ="nosotros"></A>
+        </section>
+
+        <div class="whyschose">
+
             <div class="container">
+
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="title">
-                            <h2>Publica oferta</h2>
-                        </div>
-
-                        <div class=" myContainerAbs col-md-10  hidden-sm">
-                            <form>
-
-                                <div class="col-md-8">
-                                    <input type="number" class="form-control myInput" placeholder="Ingrese descuento" aria-describedby="basic-addon1" required>
-
-                                </div>
-                                
-                                <div class="col-md-8">
-                                    <input type="number" class="form-control myInput" placeholder="Ingrese duración" aria-describedby="basic-addon1" required>
-
-                                </div>
-
-
-                                <div class="col-md-8">
-                                    <input type="text" class="form-control myInput" placeholder="Descripción de la oferta" aria-describedby="basic-addon1" required>
-
-                                </div>
-
-                                <div class="col-md-8">
-                                    <button type="submit" class="btnReg btn-default form-control myButton">Publicar</button>
-                                </div>
-                            </form>
-                        </div>
-
+                    <div class="title col-12">
+                        <h2>Administrar producto</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="choose_bg">
+            <div class="container">
+                <div class="white_bg">
+                    <div class="row">
+                        <dir class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                            <div class="for_box">
+                                <i><a href="agregaProducto.jsp"><img src="icon/1.png"/></a></i>
+                                <h3>Agrega un producto</h3>
+                            </div>
+                        </dir>
+                        <dir class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                            <div class="for_box">
+                                <i><a href="actualizaProducto.jsp"><img src="icon/1.png"/></a></i>
+                                <h3>Actualiza un producto</h3>
+                            </div>
+                        </dir>
+                        <dir class="col-xl-4 col-lg-3 col-md-6 col-sm-12">
+                            <div class="for_box">
+                                <i><a href="eliminaProducto.jsp"><img src="icon/1.png"/></a></i>
+                                <h3>Elimina un producto</h3>
+                            </div>
+                        </dir>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!--  footer --> 
 
 
 

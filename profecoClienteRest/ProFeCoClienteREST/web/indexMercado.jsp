@@ -85,17 +85,15 @@
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
-                                            <li> <a href=#aviso>Administra</a> </li>
-                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
-                                            <li> <a href="product.jsp">Productos</a> </li>
-                                           
+                                            <li> <a href="administra.jsp">Administra</a> </li>
+                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>   
                                         </ul>
                                     </nav>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                            <li><a class="buy" href="index.html">Salir</a></li>
+                            <li><a class="buy" href="index.jsp">Salir</a></li>
                         </div>
                     </div>
                 </div>
@@ -142,32 +140,18 @@
             <div class="container">
                 <div class="white_bg">
                     <div class="row">
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
                             <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
+                                <i><a href="administra.jsp"><img src="icon/1.png"/></a></i>
                                 <h3>Administrar productos</h3>
                                 <p>Registra, actualiza y elimina tus productos</p>
                             </div>
                         </dir>
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
                             <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
+                                <i><a href="publicaOferta.jsp"><img src="icon/1.png"/></a></i>
                                 <h3>Publicar una oferta</h3>
 
-                            </div>
-                        </dir>
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Ver comentarios</h3>
-                                <p>Ve los comentarios de los consumidores</p>
-                            </div>
-                        </dir>
-                        <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Catálogo de productos</h3>
-                                <p></p>
                             </div>
                         </dir>
 
