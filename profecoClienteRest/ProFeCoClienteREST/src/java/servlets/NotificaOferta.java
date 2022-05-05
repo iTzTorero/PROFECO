@@ -62,8 +62,20 @@ public class NotificaOferta extends HttpServlet {
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
+            MailManager mm = new MailManager();
             
+             String mensaje = "Hola, Carmina! \n"
+                        + "El mercado Oxxo ha publicado una oferta!\n"
+                        + "Detalles de la oferta: \n"
+                        + "Descripcion: oferta de jabones. \n"
+                        + "Descuento: 30% \n"
+                        + "Duración: 5 días.\n"
+                        + "Saludos Cordiales \n \n"
+                        + "Procuraduría Federal del Consumidor.";
             
+            mm.enviarCorrero("carminamoreno29@gmail.com", "Hola Carmina, Oxxo acaba de publicar una nueva oferta", mensaje);
+             response.sendRedirect("publicaOferta.jsp");
+        }
             
         }
     }
