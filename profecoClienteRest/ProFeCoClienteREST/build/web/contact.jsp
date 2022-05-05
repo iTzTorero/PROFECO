@@ -91,9 +91,7 @@
                               <li> <a href="index.jsp#nosotros">Más</a> </li>
                               <li> <a href="contact.jsp">Contacto</a> </li>
                               <li class="mean-last"> <a href="registro.jsp">Registro</a> </li>
-                             
-
-                               
+        
                            </ul>
                         </nav>
                      </div>
