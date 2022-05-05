@@ -84,10 +84,10 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active"> <a href="indexConsumidor.html">Inicio</a> </li>
+                              <li class="active"> <a href="indexConsumidor.jsp">Inicio</a> </li>
 
                               <li> <a href="#productos">Productos</a> </li>
-                              <li> <a href="#Ligas">Ofertas</a> </li>
+                              <li> <a href="ofertas.jsp">Ofertas</a> </li>
                               <li> <a href="#nosotros">Wishlist</a> </li>
                               <li> <a href="contact.jsp">Contacto</a> </li>
 

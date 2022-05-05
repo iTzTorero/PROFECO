@@ -148,7 +148,7 @@
       <div class="row">
          <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div class="about_box">
-               <figure><img src="images/pc_layout.png"/></figure>
+               <figure><img src="images/pc_layout2.png"/></figure>
             </div>
          </dir>
           <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">

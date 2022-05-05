@@ -87,7 +87,7 @@
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
                                             <li> <a href=#aviso>Administra</a> </li>
                                             <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
-                                            <li> <a href="#nosotros">Productos</a> </li>
+                                            <li> <a href="product.jsp">Productos</a> </li>
                                            
                                         </ul>
                                     </nav>
