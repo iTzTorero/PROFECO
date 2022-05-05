@@ -86,11 +86,11 @@
                            <ul class="menu-area-main">
                               <li class="active"> <a href="index.html">Inicio</a> </li>
 
-                              <li> <a href="index.html#aviso">Aviso</a> </li>
-                              <li> <a href="index.html#Ligas">Ligas</a> </li>
-                              <li> <a href="index.html#nosotros">Más</a> </li>
-                              <li> <a href="contact.html">Contacto</a> </li>
-                              <li class="mean-last"> <a href="registro.html">Registro</a> </li>
+                              <li> <a href="index.jsp#aviso">Aviso</a> </li>
+                              <li> <a href="index.jsp#Ligas">Ligas</a> </li>
+                              <li> <a href="index.jsp#nosotros">Más</a> </li>
+                              <li> <a href="contact.jsp">Contacto</a> </li>
+                              <li class="mean-last"> <a href="registro.jsp">Registro</a> </li>
                              
 
                                

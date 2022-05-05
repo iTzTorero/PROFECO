@@ -84,13 +84,13 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active"> <a href="index.html">Inicio</a> </li>
+                              <li class="active"> <a href="index.jsp">Inicio</a> </li>
 
                               <li> <a href=#aviso>Aviso</a> </li>
                               <li> <a href="#Ligas">Ligas</a> </li>
                               <li> <a href="#nosotros">Más</a> </li>
-                              <li> <a href="contact.html">Contacto</a> </li>
-                              <li class="mean-last"> <a href="registro.html">Registro</a> </li>
+                              <li> <a href="contact.jsp">Contacto</a> </li>
+                              <li class="mean-last"> <a href="registro.jsp">Registro</a> </li>
                              
 
                                
@@ -151,7 +151,7 @@
                 <div class="col-md-12">
                     <div class="titlepage">
 
-                        <span>¡Encuentra los mejores productos a los mejores precios1</span>
+                        <span>¡Encuentra los mejores productos a los mejores precios!</span>
                     </div>
                 </div>
             </div>
@@ -159,49 +159,48 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
                     <div class="news-box">
                         <figure><img src="images/1.jpg" alt="img" /></figure>
-                        <h3>Live With Music</h3>
-                        <span> March 20</span><span>Comment</span>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+                        <h3>Días de Festejar a Mamá</h3>
+                        <span>Mayo 10</span>
+                        <p><a href="product.jsp">Leer más</a></p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
                     <div class="news-box">
                         <figure><img src="images/2.jpg" alt="img" /></figure>
-                        <h3>Best Music</h3>
-                        <span> March 20</span><span>Comment</span>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+                        <h3>Laptop 4GB RAM 128GB</h3>
+                        <span>Mayo 15</span>
+                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
                     <div class="news-box">
                         <figure><img src="images/3.jpg" alt="img" /></figure>
-                        <h3>Live With Music</h3>
-                        <span> March 20</span><span>Comment</span>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+                        <h3>Rebajas en Pantallas</h3>
+                        <span>Mayo 15</span>
+                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div class="news-box">
                         <figure><img src="images/3.jpg" alt="img" /></figure>
-                        <h3>Live With Music</h3>
-                        <span> March 20</span><span>Comment</span>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+                        <h3>Rebajas en Pantallas</h3>
+                        <span>Mayo 15</span>
+                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div class="news-box">
                         <figure><img src="images/1.jpg" alt="img" /></figure>
-                        <h3>Live With Music</h3>
-                        <span> March 20</span><span>Comment</span>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
-                    </div>
+                        <h3>Días de Festejar a Mamá</h3>
+                        <span>Mayo 10</span>
+                        <p><a href="product.jsp">Leer más</a></p></div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div class="news-box">
                         <figure><img src="images/2.jpg" alt="img" /></figure>
-                        <h3>Best Music</h3>
-                        <span> March 20</span><span>Comment</span>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, </p>
+                        <h3>Laptop 4GB RAM 128GB</h3>
+                        <span>Mayo 15</span>
+                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
             </div>
