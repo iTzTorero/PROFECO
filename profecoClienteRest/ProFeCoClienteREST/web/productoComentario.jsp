@@ -87,10 +87,7 @@
                               <li class="active"> <a href="index.html">Inicio</a> </li>
 
                               <li> <a href="product.jsp">Productos</a> </li>
-                              <li> <a href="ofertas.jsp">Ofertas</a> </li>
-                             
-
-                               
+                              <li> <a href="ofertas.jsp">Ofertas</a> </li>                        
                            </ul>
                         </nav>
                      </div>
@@ -166,6 +163,10 @@
       </div>
    </div>
 </div>
+    <div class="container col-md-3  hidden-sm">  
+  <div class="col-md-5">
+      <a href="reportar.jsp"> <button type="submit" class="btnReg btn-default form-control myButton">Reportar</button></a>
+  </div>   </div> 
 
 <!-- CHOOSE  -->
       <div class="Clients_bg_white">
