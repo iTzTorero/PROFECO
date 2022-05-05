@@ -46,7 +46,7 @@ public class NotificacionRPC {
             json.put("mensaje", mensaje);
             return this.call(json.toString());
         } catch (InterruptedException ex) {
-            Logger.getLogger(LoginRPC.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(NotificacionRPC.class.getName()).log(Level.SEVERE, null, ex);
         }
         return null;
     }

@@ -9,7 +9,6 @@ import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.itson.accesojpa.entidades.Usuario;
-import com.itson.rabbitmq.rpc.LoginRPC;
 import com.itson.rabbitmq.rpc.NotificacionRPC;
 import com.mysql.jdbc.Connection;
 import java.io.IOException;
