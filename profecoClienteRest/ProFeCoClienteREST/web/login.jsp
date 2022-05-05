@@ -140,16 +140,16 @@
                             <h2>Inicie sesión</h2>
                         </div>
                         <div class=" myContainerAbs col-md-10  hidden-sm">
-                            <form>             
+                            <form action="InicioSesion" method="post">             
                             <div class="col-md-8">
-                                <input type="email" class="form-control myInput" placeholder="Email" aria-describedby="basic-addon1" required>
+                                <input type="email" name="email" class="form-control myInput" placeholder="Email" aria-describedby="basic-addon1" required>
 
                             </div>
                             <div class="col-md-8">
-                                <input type="password" class="form-control myInput" placeholder="Constraseña" aria-describedby="basic-addon1" required>
+                                <input type="password" name="psw" class="form-control myInput" placeholder="Constraseña" aria-describedby="basic-addon1" required>
                             </div>
                             <div class="col-md-8">
-                                <button type="submit" class="btnReg btn-default form-control myButton">Iniciar sesión</button>
+                                <input type="submit" class="btnReg btn-default form-control myButton" value="Iniciar sesión">
                             </div>
                             </form>
                         </div>
