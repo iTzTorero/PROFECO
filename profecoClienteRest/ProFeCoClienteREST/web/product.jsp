@@ -160,7 +160,7 @@
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
                      <i><img src="icon/p11.png"/></i>
-                     <h3>Computadora Interactiva</h3>
+                     <h3><a href = "productoComentario.jsp">Computadora Interactiva</a></h3>
                      <span>$100.00</span>
                   </div>
                </div>
