@@ -86,9 +86,7 @@
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
                                             <li> <a href=#aviso>Administra</a> </li>
-                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
-                                            <li> <a href="product.jsp">Productos</a> </li>
-                                           
+                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>   
                                         </ul>
                                     </nav>
                                 </div>

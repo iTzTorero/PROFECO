@@ -85,7 +85,7 @@
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
-                                            <li> <a href=#aviso>Administra</a> </li>
+                                            <li> <a href="administra.jsp">Administra</a> </li>
                                             <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
                                             
 
