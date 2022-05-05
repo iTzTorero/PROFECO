@@ -1,6 +1,6 @@
 <%-- 
-    Document   : indexProfeco
-    Created on : 4/05/2022, 05:13:42 PM
+    Document   : sanciones
+    Created on : 4/05/2022, 07:51:14 PM
     Author     : crist
 --%>
 
@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <!-- site metas -->
-        <title>ProFeCo</title>
+        <title>Sancionar</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -84,13 +84,11 @@
                                 <div class="limit-box">
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
-                                            <li class="active"> <a href="indexProfeco.jsp">Inicio</a> </li>
+                                           <li class="active"> <a href="indexProfeco.jsp">Inicio</a> </li>
 
                                             <li> <a href="sanciones.jsp">Sanción</a> </li>
-                                         
-                                  
-
-
+                                           
+                                            
 
                                         </ul>
                                     </nav>
@@ -105,60 +103,71 @@
                 <!-- end header inner --> 
         </header>
         <!-- end header -->
+      <section class="slider_section">
+         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
-        <section class="slider_section">
-
-            <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="first-slide" src="images/banner2.jpg" alt="First slide">
-
-                    </div>
-
-
-
-                </div>
-                <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-                    <i class='fa fa-angle-right'></i>
-                </a>
-                <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-                    <i class='fa fa-angle-left'></i>
-                </a>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img class="first-slide" src="images/banner2.jpg" alt="First slide">
+                  
+               </div>
+               
+              
 
             </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+            <i class='fa fa-angle-right'></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+            <i class='fa fa-angle-left'></i>
+            </a>
+            
+         </div>
 
-        </section>
+      </section>
 
-        <div class="whyschose">
-
+        
+        <!-- our product -->
+        <div class="product">
+            <A name ="nosotros"></A>
             <div class="container">
-
                 <div class="row">
-                    <div class="title col-12">
-                        <h2>ProFeCo</h2>
+                    <div class="col-md-12">
+                        <div class="title">
+                            <h2>Sancionar</h2>
+                        </div>
+
+                        <div class=" myContainerAbs col-md-10  hidden-sm">
+                            <form>
+
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control myInput" placeholder="ID mercado" aria-describedby="basic-addon1" required>
+
+                                </div>
+                                
+                                 <div class="col-md-8">
+                                    <input type="text" class="form-control myInput" placeholder="Descripción" aria-describedby="basic-addon1" required>
+
+                                </div>
+                                
+                                <div class="col-md-8">
+                                    <input type="number" class="form-control myInput" placeholder="Multa" aria-describedby="basic-addon1" required>
+
+                                </div>
+
+
+                                <div class="col-md-8">
+                                    <button type="submit" class="btnReg btn-default form-control myButton">Guardar</button>
+                                </div>
+                            </form>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
-        <div class="choose_bg">
-            <div class="container">
-                <div class="white_bg">
-                    <div class="row">
-                        <dir class="col-xl-12 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><a href="sanciones.jsp"><img src="icon/1.png"/></a></i>
-                                <h3>Aplicar sanción</h3>
-                                <p>Aplica una sanción a supermercados</p>
-                            </div>
-                        </dir>
 
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <!--  footer --> 
 
 
 

@@ -86,8 +86,8 @@
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexProfeco.jsp">Inicio</a> </li>
 
-                                            <li> <a href="">Sanción</a> </li>
-                                            <li> <a href="">Reporte</a> </li>
+                                            <li> <a href="sanciones.jsp">Sanción</a> </li>
+                                         
                                   
 
 
@@ -145,22 +145,14 @@
             <div class="container">
                 <div class="white_bg">
                     <div class="row">
-                        <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
+                        <dir class="col-xl-12 col-lg-3 col-md-6 col-sm-12">
                             <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
+                                <i><a href="sanciones.jsp"><img src="icon/1.png"/></a></i>
                                 <h3>Aplicar sanción</h3>
                                 <p>Aplica una sanción a supermercados</p>
                             </div>
                         </dir>
 
-                        <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><img src="icon/1.png"/></i>
-                                <h3>Generar un reporte</h3>
-                                <p>Realiza un reporte</p>
-
-                            </div>
-                        </dir>
 
                     </div>
                 </div>
