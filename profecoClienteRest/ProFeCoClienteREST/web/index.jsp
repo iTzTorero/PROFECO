@@ -1,3 +1,11 @@
+<%-- 
+    Document   : index
+    Created on : 4/05/2022, 04:57:06 PM
+    Author     : carmi
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
    <head>
