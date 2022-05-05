@@ -85,13 +85,13 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active"> <a href="index.html">Inicio</a> </li>
+                              <li class="active"> <a href="index.jsp">Inicio</a> </li>
 
                               <li> <a href=#aviso>Aviso</a> </li>
                               <li> <a href="#Ligas">Ligas</a> </li>
                               <li> <a href="#nosotros">Más</a> </li>
-                              <li> <a href="contact.html">Contacto</a> </li>
-                              <li class="mean-last"> <a href="registro.html">Registro</a> </li>
+                              <li> <a href="contact.jsp">Contacto</a> </li>
+                              <li class="mean-last"> <a href="registro.jsp">Registro</a> </li>
                              
 
                                
