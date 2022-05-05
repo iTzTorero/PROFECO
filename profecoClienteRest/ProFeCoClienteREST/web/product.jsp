@@ -88,7 +88,7 @@
 
                               <li> <a href="#productos">Productos</a> </li>
                               <li> <a href="ofertas.jsp">Ofertas</a> </li>
-                              <li> <a href="#nosotros">Wishlist</a> </li>
+                              <li> <a href="index.jsp">Wishlist</a> </li>
                               <li> <a href="contact.jsp">Contacto</a> </li>
 
                            </ul>
@@ -159,88 +159,61 @@
             <div class="row">
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p1.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p11.png"/></i>
+                     <h3>Computadora Interactiva</h3>
+                     <span>$100.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p2.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p22.png"/></i>
+                     <h3>Muñeca Mis Pastelitos</h3><br>
+                     <span>$250.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p3.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p33.jpg"/></i>
+                     <h3>Micro hornito Mis Pastelitos</h3>
+                     <span>$150.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p4.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p44.jpg"/></i>
+                     <h3>Draculaura</h3><br>
+                     <span>$500.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p5.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p55.jpg"/></i>
+                     <h3>Trimoto Minnie Mouse</h3><br>
+                     <span>$400.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p2.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p66.jpg"/></i>
+                     <h3>Funko Minion</h3><br>
+                     <span>$10000.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p6.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p77.jpg"/></i>
+                     <h3>LEGO Star Wars MicroFighter</h3>
+                     <span>$250.00</span>
                   </div>
                </div>
                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="product-box">
-                     <i><img src="icon/p7.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
+                     <i><img src="icon/p88.jpg"/></i>
+                     <h3>LEGO Harry Potter</h3><br>
+                     <span>$500.00</span>
                   </div>
                </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="icon/p6.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="icon/p1.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="icon/p2.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
-               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="product-box">
-                     <i><img src="icon/p4.png"/></i>
-                     <h3>Norton Internet Security</h3>
-                     <span>$25.00</span>
-                  </div>
-               </div>
+               
                </div>
             </div>
          </div>

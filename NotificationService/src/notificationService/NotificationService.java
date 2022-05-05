@@ -7,6 +7,7 @@ import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
+import org.json.JSONObject;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -26,6 +27,7 @@ public class NotificationService {
 
         factory.setHost("localhost");
 
+        MailManager mail = new MailManager();
         try (Connection connection = factory.newConnection();
                 Channel channel = connection.createChannel()) {
             channel.queueDeclare(RPC_QUEUE_NAME, false, false, false, null);
@@ -48,8 +50,11 @@ public class NotificationService {
 
                     System.out.println("Recibí petición de aviso de inicio de sesion");
 
-                    response = message;
-                    
+                    JSONObject json = new JSONObject(message);
+                    String destinatario = json.getString("destinatario");
+                    String asunto = json.getString("asunto");
+                    String mensaje = json.getString("mensaje");
+                    mail.enviarCorrero(destinatario, asunto, mensaje);
                     System.out.println("Le envie notificación de inicio de sesión a: Juan@hotmail.");
 
                 } catch (RuntimeException e) {
