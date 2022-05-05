@@ -1,7 +1,7 @@
 <%-- 
-    Document   : indexConsumidor
-    Created on : 4/05/2022, 05:05:52 PM
-    Author     : crist
+    Document   : product
+    Created on : 4/05/2022, 05:12:09 PM
+    Author     : carmi
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -15,7 +15,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Consumidor</title>
+      <title>Procuraduría Federal del Consumidor</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -84,32 +84,27 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                               <li class="active"> <a href="indexConsumidor.html">Inicio</a> </li>
+                              <li class="active"> <a href="indexConsumidor.html">Inicio</a> </li>
 
-                              <li> <a href="product.jsp">Productos</a> </li>
+                              <li> <a href="#productos">Productos</a> </li>
                               <li> <a href="#Ligas">Ofertas</a> </li>
-                              <li> <a href="#nosotros">wishlist</a> </li>
+                              <li> <a href="#nosotros">Wishlist</a> </li>
                               <li> <a href="contact.jsp">Contacto</a> </li>
-                             
-                             
 
-                               
                            </ul>
                         </nav>
                      </div>
                   </div>
                </div>
                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="index.html">Salir</a></li>
+                  <li><a class="buy" href="index.jsp">Salir</a></li>
                </div>
             </div>
          </div>
          <!-- end header inner --> 
       </header>
       <!-- end header -->
-      
-<section class="slider_section">
-    
+      <section class="slider_section">
          <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
             <div class="carousel-inner">
@@ -131,58 +126,127 @@
          </div>
 
       </section>
-
-<!-- CHOOSE  -->
-<div class="whyschose">
-         
-            <div class="container">
-
-                <div class="row">
-                     <div class="title col-12">
-                <h2>Consumidor</h2>
-            </div>
+      <!-- end header -->
+       <div class="brand_color">
+           <a name ="productos"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="titlepage">
+                        <h2>Productos</h2>
+                    </div>
                 </div>
             </div>
         </div>
-      <div class="choose_bg">
+
+    </div>
+      <!-- our product -->
+      <div class="product">
          <div class="container">
-            <div class="white_bg">
             <div class="row">
-               <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
-                     <h3>Consultar ofertas</h3>
-                     <p>Busca las ofertas de tus mercados favoritos</p>
-                  </div>
-               </dir>
-                <!--
-               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
-                     <h3>Generar un reporte</h3>
-                     <p>Realiza un reporte</p>
+               <div class="col-md-12">
+                  <div class="title">
                      
+                     <span>Tus productos favoritos desde la comodidad de tu casa</span>
                   </div>
-               </dir>-->
-               <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
-                     <h3>Buscar productos</h3>
-                     <p>Encuentra los productos que deseas</p>
-                  </div>
-               </dir>
-               
-               
+               </div>
             </div>
          </div>
-       </div>
       </div>
-<!-- end CHOOSE -->
-
-      
-
-
-      <footer>
+      <div class="product-bg">
+         <div class="product-bg-white">
+         <div class="container">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p1.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p2.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p3.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p4.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p5.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p2.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p6.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p7.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p6.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p1.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p2.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="product-box">
+                     <i><img src="icon/p4.png"/></i>
+                     <h3>Norton Internet Security</h3>
+                     <span>$25.00</span>
+                  </div>
+               </div>
+               </div>
+            </div>
+         </div>
+         
+      <!--  footer --> 
+       <footer>
          <div class="footer">
              <A name ="contacto"></A>
             <div class="container">
@@ -209,7 +273,7 @@
             </div>
          </div>
             <div class="copyright">
-               <p>Copyright 2022. Profeco 2 <a href="#inicio">Inicio</a></p>
+               <p>Copyright 2022. Profeco 2 </p>
             </div>
          
       </div>

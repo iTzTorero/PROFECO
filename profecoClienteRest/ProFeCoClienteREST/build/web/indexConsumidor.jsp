@@ -86,10 +86,10 @@
                            <ul class="menu-area-main">
                                <li class="active"> <a href="indexConsumidor.html">Inicio</a> </li>
 
-                              <li> <a href="product.html">Productos</a> </li>
+                              <li> <a href="product.jsp">Productos</a> </li>
                               <li> <a href="#Ligas">Ofertas</a> </li>
                               <li> <a href="#nosotros">wishlist</a> </li>
-                              <li> <a href="contact.html">Contacto</a> </li>
+                              <li> <a href="contact.jsp">Contacto</a> </li>
                              
                              
 
