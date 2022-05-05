@@ -161,7 +161,7 @@
                         <figure><img src="images/1.jpg" alt="img" /></figure>
                         <h3>Días de Festejar a Mamá</h3>
                         <span>Mayo 10</span>
-                        <p><a href="product.jsp">Leer más</a></p>
+                        <p><a href="productoComentario.jsp">Leer más</a></p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
@@ -169,7 +169,7 @@
                         <figure><img src="images/2.jpg" alt="img" /></figure>
                         <h3>Laptop 4GB RAM 128GB</h3>
                         <span>Mayo 15</span>
-                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
+                        <p><a href="productComentario.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
@@ -177,7 +177,7 @@
                         <figure><img src="images/3.jpg" alt="img" /></figure>
                         <h3>Rebajas en Pantallas</h3>
                         <span>Mayo 15</span>
-                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
+                        <p><a href="productComentario.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
@@ -185,7 +185,7 @@
                         <figure><img src="images/3.jpg" alt="img" /></figure>
                         <h3>Rebajas en Pantallas</h3>
                         <span>Mayo 15</span>
-                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
+                        <p><a href="productComentario.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
@@ -193,14 +193,14 @@
                         <figure><img src="images/1.jpg" alt="img" /></figure>
                         <h3>Días de Festejar a Mamá</h3>
                         <span>Mayo 10</span>
-                        <p><a href="product.jsp">Leer más</a></p></div>
+                        <p><a href="productComentario.jsp">Leer más</a></p></div>
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <div class="news-box">
                         <figure><img src="images/2.jpg" alt="img" /></figure>
                         <h3>Laptop 4GB RAM 128GB</h3>
                         <span>Mayo 15</span>
-                        <p><a href="product.jsp">Leer más</a></p><br><br><br><br>
+                        <p><a href="productComentario.jsp">Leer más</a></p><br><br><br><br>
                     </div>
                 </div>
             </div>
