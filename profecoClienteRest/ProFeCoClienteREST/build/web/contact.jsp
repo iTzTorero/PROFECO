@@ -84,13 +84,11 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active"> <a href="index.html">Inicio</a> </li>
-
-                              <li> <a href="index.jsp#aviso">Aviso</a> </li>
-                              <li> <a href="index.jsp#Ligas">Ligas</a> </li>
-                              <li> <a href="index.jsp#nosotros">Más</a> </li>
-                              <li> <a href="contact.jsp">Contacto</a> </li>
-                              <li class="mean-last"> <a href="registro.jsp">Registro</a> </li>
+                              <li class="active"> <a href="indexConsumidor.jsp">Inicio</a> </li>
+                              <li> <a href="product.jsp">Productos</a> </li>
+                              <li> <a href="ofertas.jsp">Ofertas</a> </li>
+                              <li> <a href="#nosotros">wishlist</a> </li>
+                              <li> <a href="contact.jsp">Contacto</a> </li>    
         
                            </ul>
                         </nav>
@@ -98,7 +96,7 @@
                   </div>
                </div>
                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="login.html">Login</a></li>
+                   <li><a class="buy" href="index.jsp">Salir</a></li>
                </div>
             </div>
          </div>

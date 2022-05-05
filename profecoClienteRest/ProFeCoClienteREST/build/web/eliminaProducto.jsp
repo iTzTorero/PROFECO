@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                            <li><a class="buy" href="index.html">Salir</a></li>
+                            <li><a class="buy" href="index.jsp">Salir</a></li>
                         </div>
                     </div>
                 </div>

@@ -85,7 +85,7 @@
                      <div class="limit-box">
                         <nav class="main-menu">
                            <ul class="menu-area-main">
-                              <li class="active"> <a href="index.html">Inicio</a> </li>
+                              <li class="active"> <a href="index.jsp">Inicio</a> </li>
 
                               <li> <a href="index.jsp">Aviso</a> </li>
                               <li> <a href="index.jsp">Ligas</a> </li>
@@ -101,7 +101,7 @@
                   </div>
                </div>
                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
-                  <li><a class="buy" href="login.html">Login</a></li>
+                  <li><a class="buy" href="login.jsp">Login</a></li>
                </div>
             </div>
          </div>

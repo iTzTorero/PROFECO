@@ -89,11 +89,7 @@
                               <li> <a href="product.jsp">Productos</a> </li>
                               <li> <a href="ofertas.jsp">Ofertas</a> </li>
                               <li> <a href="#nosotros">wishlist</a> </li>
-                              <li> <a href="contact.jsp">Contacto</a> </li>
-                             
-                             
-
-                               
+                              <li> <a href="contact.jsp">Contacto</a> </li>                         
                            </ul>
                         </nav>
                      </div>
@@ -150,23 +146,15 @@
             <div class="row">
                <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
+                      <i><a href="ofertas.jsp"><img src="icon/1.png"/></a></i>
                      <h3>Consultar ofertas</h3>
                      <p>Busca las ofertas de tus mercados favoritos</p>
                   </div>
                </dir>
-                <!--
-               <dir class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
-                     <h3>Generar un reporte</h3>
-                     <p>Realiza un reporte</p>
-                     
-                  </div>
-               </dir>-->
+                
                <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
                   <div class="for_box">
-                     <i><img src="icon/1.png"/></i>
+                      <i><a href="product.jsp"><img src="icon/1.png"/></a></i>
                      <h3>Buscar productos</h3>
                      <p>Encuentra los productos que deseas</p>
                   </div>
