@@ -85,9 +85,9 @@
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
-                                             <li> <a href="administra.jsp">Administra</a> </li>
+                                            <li> <a href="administra.jsp">Administra</a> </li>
                                             <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>
-                                            
+
 
                                         </ul>
                                     </nav>
@@ -102,30 +102,30 @@
                 <!-- end header inner --> 
         </header>
         <!-- end header -->
-      <section class="slider_section">
-         <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
+        <section class="slider_section">
+            <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <img class="first-slide" src="images/banner2.jpg" alt="First slide">
-                  
-               </div>
-               
-              
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="images/banner2.jpg" alt="First slide">
+
+                    </div>
+
+
+
+                </div>
+                <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+                    <i class='fa fa-angle-right'></i>
+                </a>
+                <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+                    <i class='fa fa-angle-left'></i>
+                </a>
 
             </div>
-            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class='fa fa-angle-right'></i>
-            </a>
-            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class='fa fa-angle-left'></i>
-            </a>
-            
-         </div>
 
-      </section>
+        </section>
 
-        
+
         <!-- our product -->
         <div class="product">
             <A name ="nosotros"></A>
@@ -138,8 +138,8 @@
 
                         <div class=" myContainerAbs col-md-10  hidden-sm">
                             <form>
-                                
-                                 <div class="col-md-8">
+
+                                <div class="col-md-8">
                                     <input type="text" class="form-control myInput" placeholder="Nombre del producto" aria-describedby="basic-addon1" required>
 
                                 </div>
@@ -148,16 +148,21 @@
                                     <input type="number" class="form-control myInput" placeholder="Precio" aria-describedby="basic-addon1" required>
 
                                 </div>
-                                
-                                 <div class="col-md-8">
+
+                                <div class="col-md-8">
                                     <input type="text" class="form-control myInput" placeholder="Descripción" aria-describedby="basic-addon1" required>
 
                                 </div>
-                                
+
                                 <div class="col-md-8">
                                     <input type="number" class="form-control myInput" placeholder="Categoría" aria-describedby="basic-addon1" required>
 
                                 </div>
+
+                                <div class="file-loading col-md-8">
+                                    <label for="imageUpload" class="buy2">Seleccionar imagenes</label>
+                                    <input type="file" id="imageUpload" accept="image/*" style="display: none">
+                                </div><br><br>
 
 
                                 <div class="col-md-8">

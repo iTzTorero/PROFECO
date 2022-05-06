@@ -1678,6 +1678,21 @@ display: inline-block;
 float: right;
 }
 
+.buy2 {
+background: #D4C19C;
+color: white;
+padding: 7px 41px !important;
+margin-top: 18px;
+border-radius: 5px;
+
+display: inline-block;
+
+}
+
+
+.buy2:hover {
+	color: #fff;
+}
 .buy:hover {
 	color: #fff;
 }
