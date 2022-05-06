@@ -1,6 +1,6 @@
 <%-- 
-    Document   : indexMercado
-    Created on : 4/05/2022, 05:12:34 PM
+    Document   : ofertasMercado
+    Created on : 6/05/2022, 09:23:02 AM
     Author     : crist
 --%>
 
@@ -15,7 +15,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1">
         <!-- site metas -->
-        <title>Mercado</title>
+        <title>Procuraduría Federal del Consumidor</title>
         <meta name="keywords" content="">
         <meta name="description" content="">
         <meta name="author" content="">
@@ -87,7 +87,10 @@
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
                                             <li> <a href="ofertasMercado.jsp">Ofertas</a> </li>
                                             <li> <a href="administra.jsp">Administra</a> </li>
-                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>   
+                                            <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>    
+
+
+
                                         </ul>
                                     </nav>
                                 </div>
@@ -101,9 +104,7 @@
                 <!-- end header inner --> 
         </header>
         <!-- end header -->
-
         <section class="slider_section">
-           
             <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
 
                 <div class="carousel-inner">
@@ -126,45 +127,103 @@
 
         </section>
 
-        <div class="whyschose">
-         
-            <div class="container">
 
+
+        <div class="brand_color">
+            <div class="container">
                 <div class="row">
-                     <div class="title col-12">
-                <h2>Mercado</h2>
-            </div>
-                </div>
-            </div>
-        </div>
-        <div class="choose_bg">
-            <div class="container">
-                <div class="white_bg">
-                    <div class="row">
-                        <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><a href="administra.jsp"><img src="icon/1.png"/></a></i>
-                                <h3>Administrar productos</h3>
-                                <p>Registra, actualiza y elimina tus productos</p>
-                            </div>
-                        </dir>
-                        <dir class="col-xl-6 col-lg-3 col-md-6 col-sm-12">
-                            <div class="for_box">
-                                <i><a href="publicaOferta.jsp"><img src="icon/1.png"/></a></i>
-                                <h3>Publicar una oferta</h3>
-
-                            </div>
-                        </dir>
-
+                    <div class="col-md-12">
+                        <div class="titlepage">
+                            <h2>Ofertas</h2>
+                        </div>
                     </div>
                 </div>
             </div>
+
         </div>
+        <!-- Lastestnews -->
+        <div class="Lastestnews blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titlepage">
+
+                            <span>¡Encuentra los mejores productos a los mejores precios!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
+                        <div class="news-box">
+                            <figure><img src="images/1.jpg" alt="img" /></figure>
+                            <h3>Días de Festejar a Mamá</h3>
+                            <span>Mayo 10</span><br>
+                            <button type="button" class="buy2" data-bs-toggle="modal" data-bs-target="#myModal">Eliminar</button><br><br><br><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
+                        <div class="news-box">
+                            <figure><img src="images/2.jpg" alt="img" /></figure>
+                            <h3>Laptop 4GB RAM 128GB</h3>
+                            <span>Mayo 15</span><br>
+                            <button type="button" class="buy2" data-bs-toggle="modal" data-bs-target="#myModal">Eliminar</button><br><br><br><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin">
+                        <div class="news-box">
+                            <figure><img src="images/3.jpg" alt="img" /></figure>
+                            <h3>Rebajas en Pantallas</h3>
+                            <span>Mayo 15</span><br>
+                            <button type="button" class="buy2" data-bs-toggle="modal" data-bs-target="#myModal">Eliminar</button><br><br><br><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="news-box">
+                            <figure><img src="images/3.jpg" alt="img" /></figure>
+                            <h3>Rebajas en Pantallas</h3>
+                            <span>Mayo 15</span><br>
+                            <button type="button" class="buy2" data-bs-toggle="modal" data-bs-target="#myModal">Eliminar</button><br><br><br><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="news-box">
+                            <figure><img src="images/1.jpg" alt="img" /></figure>
+                            <h3>Días de Festejar a Mamá</h3>
+                            <span>Mayo 10</span><br>
+                            <button type="button" class="buy2" data-bs-toggle="modal" data-bs-target="#myModal">Eliminar</button><br><br><br><br>
+                        </div>
+
+                    </div>
 
 
+                </div>
+                
+               
+            </div>
+            <!-- Modal-->
+           <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header">
+                            <h4 class="modal-title">Eliminar oferta</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <!-- Modal body -->
+                        <div class="modal-body">
 
+                            <h5 class="page-section-heading2 text-center text-secondary mb-0">¿Desea eliminar la oferta?</h5>
 
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
 
+                            <a href="index.jsp" ><button type="button" class="btn btn-dark" data-bs-dismiss="modal">Sí</button></a>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+
+        <!-- end Lastestnews -->
+        <!--  footer --> 
         <footer>
             <div class="footer">
                 <A name ="contacto"></A>
@@ -196,9 +255,17 @@
                 </div>
 
             </div>
-        </footer> 
+
+
+        </footer>
+
+
+
         <!-- end footer -->
         <!-- Javascript files--> 
+        <script src="js/jquery-latest.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <link rel="stylesheet" href="app/css/bootstrap.min.css">
         <script src="js/jquery.min.js"></script> 
         <script src="js/popper.min.js"></script> 
         <script src="js/bootstrap.bundle.min.js"></script> 
@@ -226,4 +293,6 @@
 
         </script> 
     </body>
+
+
 </html>

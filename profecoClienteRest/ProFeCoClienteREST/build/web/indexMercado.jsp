@@ -85,6 +85,7 @@
                                     <nav class="main-menu">
                                         <ul class="menu-area-main">
                                             <li class="active"> <a href="indexMercado.jsp">Inicio</a> </li>
+                                            <li> <a href="ofertasMercado.jsp">Ofertas</a> </li>
                                             <li> <a href="administra.jsp">Administra</a> </li>
                                             <li> <a href="publicaOferta.jsp">Publica oferta</a> </li>   
                                         </ul>
@@ -195,7 +196,7 @@
                 </div>
 
             </div>
-        </footer>
+        </footer> 
         <!-- end footer -->
         <!-- Javascript files--> 
         <script src="js/jquery.min.js"></script> 
