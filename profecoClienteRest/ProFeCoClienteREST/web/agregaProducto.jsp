@@ -161,11 +161,6 @@
 
 
                                 <div class="col-md-8">
-                                    <input type="text" class="form-control myInput" placeholder="Descripción de la oferta" aria-describedby="basic-addon1" required>
-
-                                </div>
-
-                                <div class="col-md-8">
                                     <button type="submit" class="btnReg btn-default form-control myButton">Guardar</button>
                                 </div>
                             </form>
